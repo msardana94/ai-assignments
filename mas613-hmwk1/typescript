@@ -1,0 +1,154 @@
+Script started on Tue, Sep 27, 2016  2:45:23 AM
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ exit[C[Cpython puzzlesolver.py test_cities.config astar euclidean_dist[C[1P[1P[1P[1P[1P[1P[1@c[1@i[1@t[1@i[1@e[1@s[1P[1P[1P[1P[1P[1P[1@j[1@u[1@g[1@s[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P euclidean_dist[1Peuclidean_dist[1Puclidean_dist[1Pclidean_dist[1Plidean_dist[1Pidean_dist[1Pdean_dist[1Pean_dist[1Pan_dist[1Pn_dist[1P_dist[1Pdist[1Pist[1Pst[1Pt[Kbfs
+Time Complexity:85
+Space Complexity - Frontier List size:3
+Space Complexity - Explored List size:15
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_jugs.config bfs[C[C[C[C[C[C[C[1Pfsifsdfsdfs
+Time Complexity:307140
+Space Complexity - Frontier List size:36
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_jugs.config iddfs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcities.config unicost
+Time Complexity:132
+Space Complexity - Frontier List size:50
+Space Complexity - Explored List size:22
+C00
+C11
+C20
+C30
+C40
+C31
+C41
+C32
+C42
+C33
+C43
+C34
+C44
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_cities.config unicost[K[K[K[K[K[K[Kgreedu[Ky
+Time Complexity:119
+Space Complexity - Frontier List size:6
+Space Complexity - Explored List size:25
+C00
+C11
+C22
+C33
+C44
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_cities.config greedy manhattan_dist
+Time Complexity:28
+Space Complexity - Frontier List size:15
+Space Complexity - Explored List size:19
+C00
+C11
+C22
+C33
+C44
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_cities.config greedy manhattan_dist[K[K[K[K[K[K[Kastar
+Time Complexity:142
+Space Complexity - Frontier List size:10
+Space Complexity - Explored List size:25
+C00
+C11
+C22
+C33
+C44
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_cities.config astargreedy manhattan_dist[1P manhattan_dist[1P manhattan_dist[1P manhattan_dist[1P manhattan_dist[1P manhattan_dist[1P manhattan_dista manhattan_dists manhattan_distt manhattan_dista manhattan_distr manhattan_dist
+Time Complexity:142
+Space Complexity - Frontier List size:12
+Space Complexity - Explored List size:25
+C00
+C11
+C22
+C33
+C44
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py test_cities.config astar manhattan_dist[C[C[Kpython puzzlesolver.py test_cities.config astar manhattan_dist[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpancakes.config iddfs
+Time Complexity:4275
+Space Complexity - Frontier List size:21
+[3, -1, 2, 5, 4]
+[-3, -1, 2, 5, 4]
+[-5, -2, 1, 3, 4]
+[-4, -3, 1, 2, 5]
+[-2, -1, 3, 4, 5]
+[1, 2, 3, 4, 5]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py pancakes.config iddfs[K[K[K[K[Kasr[Ktar
+Time Complexity:1591
+Space Complexity - Frontier List size:457
+Space Complexity - Explored List size:775
+[3, -1, 2, 5, 4]
+[-3, -1, 2, 5, 4]
+[-5, -2, 1, 3, 4]
+[-4, -3, 1, 2, 5]
+[-2, -1, 3, 4, 5]
+[1, 2, 3, 4, 5]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py pancakes.config astar misplaced_num
+Time Complexity:306
+Space Complexity - Frontier List size:163
+Space Complexity - Explored List size:224
+[3, -1, 2, 5, 4]
+[-3, -1, 2, 5, 4]
+[-5, -2, 1, 3, 4]
+[-4, -3, 1, 2, 5]
+[-2, -1, 3, 4, 5]
+[1, 2, 3, 4, 5]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py pancakes.config astar misplaced_num[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kidastar
+Time Complexity:4876
+Space Complexity - Frontier List size:3125
+[3, -1, 2, 5, 4]
+[-3, -1, 2, 5, 4]
+[-5, -2, 1, 3, 4]
+[-4, -3, 1, 2, 5]
+[-2, -1, 3, 4, 5]
+[1, 2, 3, 4, 5]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ python puzzlesolver.py pancakes.config idastar misplaced_num
+Time Complexity:711
+Space Complexity - Frontier List size:357
+[3, -1, 2, 5, 4]
+[-3, -1, 2, 5, 4]
+[-5, -2, 1, 3, 4]
+[-4, -3, 1, 2, 5]
+[-2, -1, 3, 4, 5]
+[1, 2, 3, 4, 5]
+]0;/c/Users/mssar/Documents/GitHub/mas613-hmwk1
+[32mmssar@LAPTOP-7LQKTB5I [33m/c/Users/mssar/Documents/GitHub/mas613-hmwk1[0m
+$ exit
+exit
+
+Script done on Tue, Sep 27, 2016  2:54:43 AM
